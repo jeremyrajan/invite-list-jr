@@ -17,7 +17,7 @@ Find a list of customers who are close to the proximity (in KM). Mainly used to 
 The program expects 2 inputs while looking for the right information:
 
 * Customer records in a text file (customers.txt) -- one customer per line, JSON-encoded. Example [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/customers.txt).
-* `config.json` file, with the following information with the structure and information [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/src/Config.d.ts).
+* `config.json` file, with the structure and information [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/src/Config.d.ts).
 
 Once you have the above information, run the following command:
 
