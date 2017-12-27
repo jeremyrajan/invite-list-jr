@@ -28,6 +28,9 @@ invite-list-jr --f=[location to customers.txt] --c=[location to config.json]
 
 This will give you a list of customers within in the proximity defined and number of results.
 
+![image](https://user-images.githubusercontent.com/2890683/34391311-c76000de-eb6a-11e7-8737-8af465721b2e.png)
+
+
 > For easiness, we have provided a [customers.txt](https://github.com/jeremyrajan/invite-list-jr/blob/master/customers.txt) and [config.json](https://github.com/jeremyrajan/invite-list-jr/blob/master/config.json) example to get started with.
 
 # Calculation
