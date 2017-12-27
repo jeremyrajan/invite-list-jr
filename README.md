@@ -17,7 +17,7 @@ Find a list of customers who are close to the proximity (in KM). Mainly used to 
 The program expects 2 inputs while looking for the right information:
 
 * Customer records in a text file (customers.txt) -- one customer per line, JSON-encoded. Example [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/customers.txt).
-* Config.json file, with the following information with the structure [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/src/Config.d.ts).
+* Config.json file, with the following information with the structure and information [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/src/Config.d.ts).
 
 Once you have the above information, run the following command:
 
@@ -27,7 +27,7 @@ invite-list-jr --f=[location to customers.txt] --c=[location to config.json]
 
 This will give you a list of customers within in the proximity defined and number of results.
 
-> For easiness, we have provided a customers.txt and config.json example to get started with.
+> For easiness, we have provided a [customers.txt](https://github.com/jeremyrajan/invite-list-jr/blob/master/customers.txt) and [config.json](https://github.com/jeremyrajan/invite-list-jr/blob/master/config.json) example to get started with.
 
 # Calculation
 Currently the program uses haversine function to calculate the distance and convert it to KM's. That said, we have an option to change the program to use spherical law of cosines [here](https://github.com/jeremyrajan/invite-list-jr/blob/master/src/index.ts#L21).

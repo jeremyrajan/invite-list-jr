@@ -1,4 +1,7 @@
 export default interface Config {
-  locationCordinates: Object,
+  locationCordinates: {
+    lat: string,
+    long: string
+  },
   proximity: number
 }
