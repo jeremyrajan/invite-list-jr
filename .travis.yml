@@ -4,6 +4,7 @@ node_js:
 
 before_install:
   - npm install gulp -g
+  - npm install -g codecov
 
 cache:
   directories:

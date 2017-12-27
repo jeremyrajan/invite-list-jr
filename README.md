@@ -2,6 +2,7 @@
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![npm version](https://badge.fury.io/js/invite-list-jr.svg)](https://badge.fury.io/js/invite-list-jr)
 [![david.dm](https://david-dm.org/jeremyrajan/invite-list-jr.svg)](https://david-dm.org/jeremyrajan/invite-list-jr)
+[![codecov](https://codecov.io/gh/jeremyrajan/invite-list-jr/branch/master/graph/badge.svg)](https://codecov.io/gh/jeremyrajan/invite-list-jr)
 
 [![NPM](https://nodei.co/npm/invite-list-jr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/invite-list-jr/)
 
