@@ -44,4 +44,5 @@ For more information regarding the algorithms, please refer to https://en.wikipe
 git clone git@github.com:jeremyrajan/invite-list-jr.git
 npm install
 gulp # starts a watcher
+npm test # to run the tests using jest
 ```
