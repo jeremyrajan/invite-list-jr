@@ -1,8 +1,9 @@
 import * as fs from 'fs-extra';
 import * as path from 'path';
+import { haversine, spherical } from './distance-algos';
 import { convertTxtToJSON, readFileJSON } from './file-ops';
 import { parseArgs } from './parse-args';
-import { latitudeLongitudeInKM, sort } from './utils';
+import { sort } from './utils';
 
 import ICustomer from './Customer';
 
@@ -16,7 +17,8 @@ export function find(customers, findConfig) {
   const customerListSorted = sort(customers, 'user_id');
 
   const inviteList = customerListSorted.filter((c) => {
-    c.inKm = latitudeLongitudeInKM(
+    // choose between haversine or spherical algo
+    c.inKm = haversine(
       c.latitude, c.longitude,
       findConfig.locationCordinates.lat, findConfig.locationCordinates.long,
     );
